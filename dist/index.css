@@ -1,0 +1,6 @@
+.box {
+  background: red;
+  color: blue; }
+  .box .box1 {
+    background: black;
+    color: yellow; }
