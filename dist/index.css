@@ -8,6 +8,23 @@
 a {
   text-decoration: none; }
 
+.icon {
+  width: 4em;
+  height: 4em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background: #A82431;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px black; }
+
+.icon:hover {
+  background: #7871a5;
+  transition: all 1s; }
+
 .wrapper {
   background: #322E44;
   display: flex;
