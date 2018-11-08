@@ -1,9 +1,124 @@
-.box{
-  background: red;
-  color: blue;
+* { margin: 0; padding: 0; }
+* { box-sizing: border-box; }
+a { text-decoration: none; }
 
-  .box1{
-    background: black;
-    color: yellow;
+
+$main-bg: #242233;
+$circle-shadow: 10px 10px 30px #000;
+$circle-color: #A82431;
+$text-color: linear-gradient(to bottom, #238999, #313C60);
+
+.wrapper {
+  background: #322E44;
+  //height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+
+  .circle-1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: $circle-color;
+    position: fixed;
+    z-index: 0;
+    top: -400px;
+    right: -200px;
+    box-shadow: $circle-shadow;
+  }
+  .circle-2 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: $circle-color;
+    position: fixed;
+    z-index: 0;
+    bottom: -390px;
+    left: -390px;
+    box-shadow: $circle-shadow;
+  }
+
+
+  .main{
+    background: white;
+    border-radius: 2px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: 50px 0 100px 0;
+    padding: 30px;
+    z-index: 1;
+    box-shadow: 10px 10px 20px #171717;
+
+    .info{
+      h1{ text-align: center; padding: 10px;}
+      p{ text-align: center; }
+    }
+
+    section{
+      margin: 50px 0 50px 0;
+
+      h3{
+        padding: 5px 0 5px 15px;
+        border-bottom: 1px solid black;
+      }
+
+      .item{
+        margin: 10px 0 20px 0;
+        padding-left: 15px;
+
+        ul{
+          margin: 5px 0 5px 30px;
+          width: 90%;
+
+          li{
+            padding: 3px;
+            a:hover{ text-decoration: underline }
+          }
+        }
+      }
+
+
+      .item-main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        ul{
+          display: inline-block;
+          width: 70%;
+        }
+        .picture{
+          border: 2px solid black;
+          border-radius: 3px;
+          width: 100px; height: 100px;
+        }
+        .picture-1{
+          background: url("../src/img/project-1.jpg") center no-repeat;
+          background-size: cover;
+        }
+        .picture-2{
+          background: url("../src/img/project-2.jpg") center no-repeat;
+          background-size: cover;
+        }
+        .picture-3{
+          background: url("../src/img/project-3.jpg") center no-repeat;
+          background-size: cover;
+        }
+        .picture-4{
+          background: url("../src/img/project-4.jpg") center no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:600px) {
+  body{
+    font-size: 12px;
+  }
+  .item-main .picture{
+    display: none;
   }
 }
