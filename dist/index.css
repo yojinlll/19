@@ -51,6 +51,9 @@ a {
     bottom: -390px;
     left: -390px;
     box-shadow: 10px 10px 30px #000; }
+  .wrapper .circle-1:hover, .wrapper .circle-2:hover {
+    background: #7871a5;
+    transition: all 3s; }
   .wrapper .main {
     background: white;
     border-radius: 2px;

@@ -52,6 +52,12 @@ $text-color: linear-gradient(to bottom, #238999, #313C60);
     left: -390px;
     box-shadow: $circle-shadow;
   }
+  .circle-1:hover,.circle-2:hover{
+    background: #7871a5;
+    transition: all 3s;
+  }
+
+
 
 
   .main{
