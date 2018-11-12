@@ -1,7 +1,8 @@
 * { margin: 0; padding: 0; }
-* { box-sizing: border-box; }
-a { text-decoration: none; }
 
+* { box-sizing: border-box; }
+
+a { text-decoration: none; }
 
 $circle-shadow: 10px 10px 30px #000;
 $circle-color: #A82431;
@@ -18,7 +19,8 @@ $text-color: linear-gradient(to bottom, #238999, #313C60);
   border-radius: 5px;
   box-shadow: 4px 4px 10px black;
 }
-.icon:hover{
+
+.icon:hover {
   background: #7871a5;
   transition: all 1s;
 }
@@ -52,15 +54,12 @@ $text-color: linear-gradient(to bottom, #238999, #313C60);
     left: -390px;
     box-shadow: $circle-shadow;
   }
-  .circle-1:hover,.circle-2:hover{
+  .circle-1:hover, .circle-2:hover {
     background: #7871a5;
     transition: all 3s;
   }
 
-
-
-
-  .main{
+  .main {
     background: white;
     border-radius: 2px;
     min-width: 320px;
@@ -70,62 +69,61 @@ $text-color: linear-gradient(to bottom, #238999, #313C60);
     z-index: 1;
     box-shadow: 10px 10px 20px #171717;
 
-    .info{
-      h1{ text-align: center; padding: 10px;}
-      p{ text-align: center; }
+    .info {
+      h1 { text-align: center; padding: 10px;}
+      p { text-align: center; }
     }
 
-    section{
+    section {
       margin: 50px 0 50px 0;
 
-      h3{
+      h3 {
         padding: 5px 0 5px 15px;
         border-bottom: 1px solid black;
       }
 
-      .item{
+      .item {
         margin: 10px 0 20px 0;
         padding-left: 15px;
 
-        ul{
+        ul {
           margin: 5px 0 5px 30px;
           width: 90%;
 
-          li{
+          li {
             padding: 3px;
-            a:hover{ text-decoration: underline }
+            a:hover { text-decoration: underline }
           }
         }
       }
 
-
-      .item-main{
+      .item-main {
         display: flex;
         justify-content: space-around;
         align-items: center;
 
-        ul{
+        ul {
           display: inline-block;
           width: 70%;
         }
-        .picture{
+        .picture {
           border: 2px solid black;
           border-radius: 3px;
           width: 100px; height: 100px;
         }
-        .picture-1{
+        .picture-1 {
           background: url("../src/img/project-1.jpg") center no-repeat;
           background-size: cover;
         }
-        .picture-2{
+        .picture-2 {
           background: url("../src/img/project-2.jpg") center no-repeat;
           background-size: cover;
         }
-        .picture-3{
+        .picture-3 {
           background: url("../src/img/project-3.jpg") center no-repeat;
           background-size: cover;
         }
-        .picture-4{
+        .picture-4 {
           background: url("../src/img/project-4.jpg") center no-repeat;
           background-size: cover;
         }
@@ -134,11 +132,10 @@ $text-color: linear-gradient(to bottom, #238999, #313C60);
   }
 }
 
-@media (max-width:600px) {
-  body{
-    font-size: 12px;
-  }
-  .item-main .picture{
-    display: none;
-  }
+@media (max-width: 600px) {
+  body { font-size: 12px; }
+  .item-main .picture { display: none; }
+  .wrapper .main section .item ul { margin: 0; width: 90%; }
+  .icon { display: none; }
+  .wrapper .circle-1 { width: 500px; height: 500px;}
 }

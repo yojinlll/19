@@ -112,4 +112,11 @@ a {
   body {
     font-size: 12px; }
   .item-main .picture {
-    display: none; } }
+    display: none; }
+    .wrapper .main section .item ul {
+        margin: 0;
+        width: 90%; } 
+    .icon{ display: none; }
+    .wrapper .circle-1 {
+        width: 500px; height: 500px;}
+}
