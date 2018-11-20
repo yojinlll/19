@@ -40,7 +40,8 @@ a {
     z-index: 0;
     top: -400px;
     right: -200px;
-    box-shadow: 10px 10px 30px #000; }
+    box-shadow: 10px 10px 30px #000;
+    transition: all 1s; }
   .wrapper .circle-2 {
     width: 600px;
     height: 600px;
@@ -50,10 +51,11 @@ a {
     z-index: 0;
     bottom: -390px;
     left: -390px;
-    box-shadow: 10px 10px 30px #000; }
+    box-shadow: 10px 10px 30px #000;
+    transition: all 1s; }
   .wrapper .circle-1:hover, .wrapper .circle-2:hover {
     background: #7871a5;
-    transition: all 3s; }
+    transition: all 1s; }
   .wrapper .main {
     background: white;
     border-radius: 2px;
@@ -106,6 +108,9 @@ a {
           background-size: cover; }
         .wrapper .main section .item-main .picture-4 {
           background: url("../src/img/project-4.jpg") center no-repeat;
+          background-size: cover; }
+        .wrapper .main section .item-main .picture-5 {
+          background: url("../src/img/project-5.jpg") center no-repeat;
           background-size: cover; }
 
 @media (max-width: 600px) {

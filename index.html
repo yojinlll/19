@@ -11,116 +11,149 @@
 </head>
 <body>
 
-  <div class="wrapper">
-    <div class="circle-1"></div>
-    <div class="circle-2"></div>
-    <div class="download">
-      <a href="./src/劳业锦-前端-2018.pdf" target="_blank" download="">
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-download"></use>
-        </svg>
-      </a>
-    </div>
-
-    <div class="main">
-      <div class="info">
-        <h1>劳业锦</h1>
-        <p>
-          13728906723 - 897073574@qq.com - 深圳 <br>
-          Blog: <a href="#">https://www.jianshu.com/u/16c17fee975d</a><br>
-          Github: <a href="#">https://github.com/yojinlll</a><br>
-          前端开发工程师
-        </p>
-      </div>
-      <section class="project">
-          <h3>作 品</h3>
-          <div class="item">
-            <h4>Switch</h4>
-            <div class="item-main">
-              <ul>
-                <li>技术：Scss，CSS渐变及动画，Canvas，Webpack</li>
-                <li>预览：<a href="https://yojinlll.github.io/switch-pack/dist/index.html" target="_blank">https://yojinlll.github.io/switch-pack/dist/index.html</a></li>
-                <li>源码：<a href="https://github.com/yojinlll/switch-pack" target="_blank">https://github.com/yojinlll/switch-pack</a></li>
-                <li>简述：在 Webpack 中置入 Sass-loader，用 Scss语法 实现的 switch 游戏机样图，添加了背景色渐变及简单动画效果，并用 iframe 标签展示 canvas 画板。
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                </li>
-              </ul>
-              <div class="picture picture-1">
-              </div>
-            </div>
-
-          </div>
-          <div class="item">
-            <h4>Vue.js 社区</h4>
-            <div class="item-main">
-              <ul>
-                <li>技术：Vue-cli，Vue.js，Vue Router，Axios，响应移动端</li>
-                <li>预览：<a href="https://yojinlll.github.io/Vue-js.com/dist/index.html" target="_blank">https://yojinlll.github.io/Vue-js.com/dist/index.html#/</a></li>
-                <li>源码：<a href="https://github.com/yojinlll/Vue-js.com" target="_blank">https://github.com/yojinlll/Vue-js.com</a></li>
-                <li>简述：Vue 仿建的 Vue 社区，包含帖子跳转，用户页面跳转功能。使用 Vue-cli 搭建环境，通过 Axios 从 Vue.js 社区的 API 中获取所需数据展示到页面，也涉及了 Promise 的简单使用， 页面的跳转通过 Vue Router 实现页面局部更新，而非 a 标签跳转，此外值得注意的是组件复用的情况需要用 watch 去监听。在PC页面完成后，添加了移动端的响应，支持手机浏览。
-                </li>
-              </ul>
-              <div class="picture picture-2"></div>
-            </div>
-          </div>
-          <div class="item">
-            <h4>Web-music 网页音乐</h4>
-            <div class="item-main">
-              <ul>
-                <li>技术：jQuery，发布订阅模式，leanCloud 及 七牛 搭建后台环境</li>
-                <li>预览：<a href="https://yojinlll.github.io/music-demo/src/index.html" target="_blank">https://yojinlll.github.io/music-demo/src/index.html</a></li>
-                <li>源码：<a href="https://github.com/yojinlll/music-demo" target="_blank">https://github.com/yojinlll/music-demo</a></li>
-                <li>简述：使用原生 JavaScript 及 jQuery 实现的在线播放器，后台环境由 leanCloud 与 七牛 共同搭建。获取七牛上传凭证后可在管理页面上传本地歌曲，歌曲信息(歌名，歌手，外链)存储 leanCloud，通过 leanCloud API 获取。 该作品根据 MVC 的架构去实现，完成这个作品让我更好的去理解 MVVM 及学习 Vue。
-                </li>
-              </ul>
-              <div class="picture picture-3"></div>
-            </div>
-          </div>
-          <div class="item">
-            <h4>Bulu 组件</h4>
-            <div class="item-main">
-              <ul>
-                <li>技术：Vue，Scss，发布订阅模式，单元测试(Mocha/Sinon/Chai)，parcel 打包</li>
-                <li>预览：<a href="https://yojinlll.github.io/bulu-demo/" target="_blank">https://yojinlll.github.io/bulu-demo/</a></li>
-                <li>源码：<a href="https://github.com/yojinlll/bulu-demo" target="_blank">https://github.com/yojinlll/bulu-demo</a></li>
-                <li>简述：使用 Vue 实现的七个小组件，半成品，将会陆续添加及完善组件。由于本人目前能力有限，该作品未涉及过于复杂知识，基本围绕 Vue 的基础使用去实现。个别组件中使用到发布订阅模式，用到 provide/inject 令多个 vue 文件相互监听。此外这个作品让我开始接触及使用单元测试，通过单元测试来确保一个项目的质量。
-                </li>
-              </ul>
-              <div class="picture picture-4"></div>
-            </div>
-          </div>
-        </section>
-        <section class="skill">
-          <h3>技 能</h3>
-          <div class="item">
-            <ul>
-              <li>能够造简单的 Vue 组件，以及完成相应的单元测试。</li>
-              <li>能够根据面向对象思想利用 JS/jQuery 封装常用插件。</li>
-              <li>JavaScript 基础掌握良好，理解 this、闭包、原型链、作用域等基本概念，熟练使用 ES6 部分语法。</li>
-              <li>熟练使用 HTML 及 CSS 常用语法，掌握常用的布局（float/flex），能够高度还原 UI 视觉稿。</li>
-              <li>掌握 媒体查询 及 REM 的方法来响应移动端 </li>
-              <li>了解浏览器渲染过程及前端常用的性能优化策略。</li>
-              <li>掌握常用的 Git 命令。</li>
-              <li>代码风格整洁美观。</li>
-            </ul>
-          </div>
-
-        </section>
-        <section class="experience">
-          <h3>经历</h3>
-          <div class="item">
-            <ul>
-              <li>深圳职业技术学院（16年毕业）</li>
-              <li>工作后接触前端，自学前端半年</li>
-            </ul>
-          </div>
-        </section>
-    </div>
-
+<div class="wrapper">
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="download">
+    <a href="./src/前端开发-劳业锦-2018.pdf" target="_blank" download="">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-download"></use>
+      </svg>
+    </a>
   </div>
 
-  <script src="//at.alicdn.com/t/font_910398_k1apskp6v3c.js"></script>
+  <div class="main">
+    <div class="info">
+      <h1>劳业锦</h1>
+      <p>
+        13728906723 - 897073574@qq.com - 深圳 <br>
+        Blog: <a href="#">https://www.jianshu.com/u/16c17fee975d</a><br>
+        Github: <a href="#">https://github.com/yojinlll</a><br>
+        前端开发工程师
+      </p>
+    </div>
+    <section class="project">
+      <h3>项 目</h3>
+      <div class="item">
+        <h4>Vue.js 社区</h4>
+        <div class="item-main">
+          <ul>
+            <li>技术：Vue-cli，Vue.js，Vue Router，Axios，响应移动端</li>
+            <li>预览：<a href="https://yojinlll.github.io/Vue-js.com/dist/index.html" target="_blank">https://yojinlll.github.io/Vue-js.com/dist/index.html#/</a>
+            </li>
+            <li>源码：<a href="https://github.com/yojinlll/Vue-js.com" target="_blank">https://github.com/yojinlll/Vue-js.com</a>
+            </li>
+            <li>简述：Vue 仿建的 Vue 社区，包含帖子跳转，用户页面跳转功能。使用 Vue-cli 搭建环境，通过 Axios 从 Vue.js 社区的 API 中获取所需数据展示到页面，也涉及了 Promise
+              的简单使用， 页面的跳转通过 Vue Router 实现页面局部更新，而非 a 标签跳转，此外值得注意的是组件复用的情况需要用 watch 去监听。在PC页面完成后，添加了移动端的响应，支持手机浏览。
+            </li>
+          </ul>
+          <div class="picture picture-2"></div>
+        </div>
+      </div>
+      <div class="item">
+        <h4>Bulu 组件</h4>
+        <div class="item-main">
+          <ul>
+            <li>技术：Vue，Scss，发布订阅模式，单元测试(Mocha/Sinon/Chai)，parcel 打包</li>
+            <li>预览：<a href="https://yojinlll.github.io/bulu-demo/"
+                      target="_blank">https://yojinlll.github.io/bulu-demo/</a></li>
+            <li>源码：<a href="https://github.com/yojinlll/bulu-demo"
+                      target="_blank">https://github.com/yojinlll/bulu-demo</a></li>
+            <li>简述：使用 Vue 实现的七个小组件，半成品，将会陆续添加及完善组件。由于本人目前能力有限，该作品未涉及过于复杂知识，基本围绕 Vue 的基础使用去实现。个别组件中使用到发布订阅模式，用到
+              provide/inject 令多个 vue 文件相互监听。此外这个作品让我开始接触及使用单元测试，通过单元测试来确保一个项目的质量。
+            </li>
+          </ul>
+          <div class="picture picture-4"></div>
+        </div>
+      </div>
+      <div class="item">
+        <h4>Web-music 网页音乐</h4>
+        <div class="item-main">
+          <ul>
+            <li>技术：jQuery，发布订阅模式，leanCloud 及 七牛 搭建后台环境</li>
+            <li>预览：<a href="https://yojinlll.github.io/music-demo/src/index.html" target="_blank">https://yojinlll.github.io/music-demo/src/index.html</a>
+            </li>
+            <li>源码：<a href="https://github.com/yojinlll/music-demo" target="_blank">https://github.com/yojinlll/music-demo</a>
+            </li>
+            <li>简述：使用原生 JavaScript 及 jQuery 实现的在线播放器，后台环境由 leanCloud 与 七牛 共同搭建。获取七牛上传凭证后可在管理页面上传本地歌曲，歌曲信息(歌名，歌手，外链)存储
+              leanCloud，通过 leanCloud API 获取。 该作品根据 MVC 的架构去实现，完成这个作品让我更好的去理解 MVVM 及学习 Vue。
+            </li>
+          </ul>
+          <div class="picture picture-3"></div>
+        </div>
+      </div>
+      <div class="item">
+        <h4>Vue 商业首页</h4>
+        <div class="item-main">
+          <ul>
+            <li>技术：Vue-cli，Scss, 发布订阅模式，REM</li>
+            <li>预览：<a href="https://yojinlll.github.io/vue-web/dist/index.html" target="_blank">https://yojinlll.github.io/vue-web/dist/index.html</a>
+            </li>
+            <li>源码：<a href="https://github.com/yojinlll/vue-web" target="_blank">https://github.com/yojinlll/vue-web</a>
+            </li>
+            <li>简述：使用 Vue-cli 搭建环境，用 Vue 完成的精美商业首页。视频嵌入，轮播，交互动画，以及使用 REM 响应平板电脑分辨率，目前还未完善至完全响应移动端。该作品基本呈现了本人对于 HTML、CSS 的掌握情况。
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+            </li>
+          </ul>
+          <div class="picture picture-5">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <h4>Switch</h4>
+        <div class="item-main">
+          <ul>
+            <li>技术：Scss，CSS渐变及动画，Canvas，Webpack</li>
+            <li>预览：<a href="https://yojinlll.github.io/switch-pack/dist/index.html" target="_blank">https://yojinlll.github.io/switch-pack/dist/index.html</a>
+            </li>
+            <li>源码：<a href="https://github.com/yojinlll/switch-pack" target="_blank">https://github.com/yojinlll/switch-pack</a>
+            </li>
+            <li>简述：在 Webpack 中置入 Sass-loader，用 Scss语法 实现的 switch 游戏机样图，添加了背景色渐变及简单动画效果，并用 iframe 标签展示 canvas 画板。
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            </li>
+          </ul>
+          <div class="picture picture-1">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skill">
+      <h3>技 能</h3>
+      <div class="item">
+        <ul>
+          <li>能够造简单的 Vue 组件，以及完成相应的单元测试。</li>
+          <li>能够根据面向对象思想利用 JS/jQuery 封装常用插件。</li>
+          <li>JavaScript 基础掌握良好，理解 this、闭包、原型链、作用域等基本概念，熟练使用 ES6 部分语法。</li>
+          <li>熟练使用 HTML 及 CSS 常用语法，掌握常用的布局（float/flex），能够高度还原 UI 视觉稿。</li>
+          <li>掌握 媒体查询 及 REM 的方法来响应移动端</li>
+          <li>了解浏览器渲染过程及前端常用的性能优化策略。</li>
+          <li>掌握常用的 Git 命令。</li>
+          <li>代码风格整洁美观。</li>
+        </ul>
+      </div>
+
+    </section>
+    <section class="experience">
+      <h3>经 历</h3>
+      <div class="item">
+        <ul>
+          <li>深圳职业技术学院（16年毕业）</li>
+          <li>工作后接触前端，自学前端半年</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+<script src="//at.alicdn.com/t/font_910398_k1apskp6v3c.js"></script>
 </body>
 </html>
