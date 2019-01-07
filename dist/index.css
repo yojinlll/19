@@ -97,6 +97,9 @@ a {
           border-radius: 3px;
           width: 100px;
           height: 100px; }
+        .wrapper .main section .item-main .picture-0 {
+          background: url("../src/img/project-0.jpg") center no-repeat;
+          background-size: cover; }
         .wrapper .main section .item-main .picture-1 {
           background: url("../src/img/project-1.jpg") center no-repeat;
           background-size: cover; }
