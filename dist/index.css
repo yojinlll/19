@@ -115,18 +115,21 @@ a {
         .wrapper .main section .item-main .picture-5 {
           background: url("../src/img/project-5.jpg") center no-repeat;
           background-size: cover; }
-        .wrapper .main section .item-main .picture-6 {
-            background: url("../src/img/wx.jpg") center no-repeat;
-            background-size: cover;}
+        
+.wrapper .main section .item-main img{
+    width: 100px;
+    height: 100px;
+}
 
 @media (max-width: 600px) {
   body {
     font-size: 12px; }
+  .item-main{display: block !important;}
   .item-main .picture {
     display: none; }
     .wrapper .main section .item ul {
         margin: 0;
-        width: 90%; } 
+        width: 90%; }
     .icon{ display: none; }
     .wrapper .circle-1 {
         width: 500px; height: 500px;}
