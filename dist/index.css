@@ -115,6 +115,9 @@ a {
         .wrapper .main section .item-main .picture-5 {
           background: url("../src/img/project-5.jpg") center no-repeat;
           background-size: cover; }
+        .wrapper .main section .item-main .picture-6 {
+            background: url("../src/img/wx.jpg") center no-repeat;
+            background-size: cover;}
 
 @media (max-width: 600px) {
   body {
