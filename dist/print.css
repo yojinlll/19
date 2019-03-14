@@ -43,3 +43,7 @@ a {
         align-items: center; }
         .wrapper .main section .item-main ul {
           display: inline-block; }
+.wrapper .main section .item-main img{
+    width: 100px;
+    height: 100px;
+}
